@@ -1,0 +1,37 @@
+buat aplikasi pokmeon yang datanya diambil dari pokeAPI
+fungsionaitas yang di mau :
+- (mandatory) nampilin list pokemon
+- (mandatory) ada navaigasi
+- (mandatory) ada pagination
+- (mandatory) halaman detail statistik pokemon
+- (optional) kalau bisa ada game catch atau run lebih bagus 
+- (optional) simpan pokemon yang di catch di local storage
+- (optional) bisa simpan nama pokemon yang disimpan di local storage
+- (optional) bisa hapus pokemon
+- (optional) bisa lightmode/darkmode
+
+
+=== API ===
+list pokemon: https://pokeapi.co/api/v2/pokemon?offset=0&limit=20"
+image: https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png
+gif:  https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif
+pokemon habitat: https://pokeapi.co/api/v2/pokemon-habitat/id
+pokemon habitat from species : https://pokeapi.co/api/v2/pokemon-species/1
+
+
+
+=== home card pokemon ===
+1. tagnumber
+2. name
+3. weight
+4. height
+
+=== detail card pokemon===
+1. name
+2. tag number
+3. type pokemon
+4. weight
+5. height
+6. Abilities
+7. habitats
+7. button catch this pokemon
